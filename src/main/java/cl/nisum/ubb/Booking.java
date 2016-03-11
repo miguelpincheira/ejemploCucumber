@@ -7,4 +7,7 @@ public abstract class Booking {
 		return new NullBooking();
 	}
 
+	public abstract Car getCar();
+	public abstract User getUser();
+
 }

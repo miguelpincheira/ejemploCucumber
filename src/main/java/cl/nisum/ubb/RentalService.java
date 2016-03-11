@@ -40,5 +40,30 @@ public class RentalService {
 		}
 		return multas;
 	}
+
+	public MultasClient getMultasClient() {
+		return multasClient;
+	}
+
+	public void setMultasClient(MultasClient multasClient) {
+		this.multasClient = multasClient;
+	}
+
+	public ErrorNotificationService getErrorNotificationService() {
+		return errorNotificationService;
+	}
+
+	public void setErrorNotificationService(
+			ErrorNotificationService errorNotificationService) {
+		this.errorNotificationService = errorNotificationService;
+	}
+
+	public CarService getCarService() {
+		return carService;
+	}
+
+	public void setCarService(CarService carService) {
+		this.carService = carService;
+	}
 	
 }
